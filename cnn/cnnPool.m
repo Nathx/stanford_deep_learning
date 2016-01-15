@@ -10,6 +10,7 @@ function pooledFeatures = cnnPool(poolDim, convolvedFeatures)
 %  pooledFeatures - matrix of pooled features in the form
 %                   pooledFeatures(poolRow, poolCol, featureNum, imageNum)
 %     
+% Resolution by Nathan Kiner
 
 numImages = size(convolvedFeatures, 4);
 numFilters = size(convolvedFeatures, 3);

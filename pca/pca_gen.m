@@ -1,4 +1,5 @@
 %%================================================================
+% Resolution by Nathan Kiner
 %% Step 0a: Load data
 %  Here we provide the code to load natural image data into x.
 %  x will be a 784 * 600000 matrix, where the kth column x(:, k) corresponds to
